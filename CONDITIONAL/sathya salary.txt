@@ -1,0 +1,7 @@
+sathya just started work as a programming trainer for uits placementh cell.she is paid rs.100 an hour with a few exception 
+she earns for an extra Rs.15 an hour for any part of a day where she works more than hour 8 hours ,and an extra rs.25
+an hours beyond 40 in any one week.also,she earns a 25% bonus for working on saturday and sunday are computed based on
+the hours worked those days;they are not used to calculate any bonus for working more than 40 hours in a week .you will be given the 
+number of hours sathya worked on each day in a week(sunday,monday,..saturday),and you need to compute her salary for the week.
+ input format:
+input consists of 7 integers lessthan or equal to 24 on separate lines.

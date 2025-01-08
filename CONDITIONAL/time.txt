@@ -1,0 +1,26 @@
+package Basics;
+import java.util.*;
+
+public class time {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		int n=sc.nextInt();
+		System.out.println("enter time");
+		if(n>=6&&n<12) {
+			
+			System.out.println("morning");
+			
+		}
+		else if(n>12&&n<=16) {
+			System.out.println("afternoon");
+		}
+		else if(n>16&&n<19)
+		{
+			System.out.println("evening");
+		}
+		else {
+			System.out.println("invalid");
+		}
+	}
+
+}

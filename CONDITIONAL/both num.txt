@@ -1,0 +1,33 @@
+package Basics;
+import java.util.*;
+
+
+public class di {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the values");
+	int n=sc.nextInt();
+	int k=sc.nextInt();
+	if(n%7==0) {
+		System.out.println("divisible by 7");
+		
+	}
+	else if(k%11==0) {
+		System.out.println("divisible by 11");
+		
+	}
+	else if(n%7==0&&k%11==0) {
+		
+	
+		System.out.println("both");
+	
+	}
+	else
+	{
+	   System.out.println("not accepted");
+	   
+		   
+	   }
+}
+}

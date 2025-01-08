@@ -1,0 +1,21 @@
+package Basics;
+import java .util.*;
+
+
+public class division {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	System.out.println("enter the value");
+	int n=sc.nextInt();
+	if(n%10==0&&n%5==0)
+	{
+		System.out.println("the number is divide");
+		
+	}
+	else
+	{
+       System.out.println("the number is not divide");
+	}
+	}
+}

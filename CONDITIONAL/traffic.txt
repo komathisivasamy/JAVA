@@ -1,0 +1,28 @@
+package Basics;
+import java.util.*;
+
+
+public class traffic {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter values");
+		float speed=sc.nextFloat();
+		float dist=sc.nextFloat();
+		float sec=sc.nextFloat();
+		double xyz=speed/3600.0;
+		double abc=speed*dist;
+		if(abc<sec)
+		{
+			System.out.println("can be beaten");
+			
+		}
+		else {
+			System.out.println("cannot");
+		}
+		
+		
+
+	}
+
+}
