@@ -1,0 +1,21 @@
+import java.util.Scanner {
+    public static void main(String args[]){
+        Scanner Sc = new Scanner (System.in){
+            System.out.println("before swapping");
+            int n=sc.nextInt();
+            System.out.println("enter the value of n"+n);
+            int k=sc.nextInt();
+            System.out.println("enter the value of k "+k);
+            int temp=n;
+            n=k;
+            k=temp;
+            System.out.println("after swapping");
+            System.out.println("enter the value of n"+n);
+            System.out.println("enter the value of k"+k);7
+
+        }
+    }
+    
+    
+}
+write a programm with 2 numbers and getting swapping value without temporary value

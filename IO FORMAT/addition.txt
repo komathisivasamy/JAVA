@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class add{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the value ");
+        int n=sc.nextInt();
+        System.out.println("enter the value");
+        int k=sc.nextInt();
+        int sum=n+k;
+        int dif=n-k;
+        System.out.println(sum);
+        System.out.println(dif);
+        
+    
+    }
+}
+write a java prorgamm to get 2 numbers from the user and calculate their sum and differnce using + and - operators respectively.print the corresponding sum and difference of the numbers as output in the console
+input format:
+first input:an integer
+second input:an integer
+output format:
+first output will be the sum of two integers and second output will be the difference of two integers

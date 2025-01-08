@@ -1,0 +1,23 @@
+write a java programm to get 2 numbers from the user and swap their values without any loss of data.you caa make use of additional values of the 2 nmbers as output in the
+console.
+input format:
+first input:an integer
+second input: an integer
+output format:
+import java.util.Scanner;
+public class swapping{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the value");
+        int n=sc.nextInt();
+        System.out.println(":enter the value");
+        int k=sc.nextInt();
+        System.out.println("before swapping");
+        n=n+k;
+        k=n-k;
+        n=n-k;
+         System.out.println("after swapping");
+         System.out.println("enter the values" +n);
+         System.out.println("enter the value"+k);
+    }
+

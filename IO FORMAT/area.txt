@@ -1,0 +1,21 @@
+sheela has three things in her bag .she wants to compute the area of the of circle ,square,rectangular shapes respectively.
+input format:a side of square is integer
+second format: length of a rectangle in integer
+third input :radius of a circle in float 
+output format:
+import java.util.*;
+
+public class area{
+    public static void main(String args[]){
+        Scanner sc=new Scanner (System.in);
+        System.out.println("enter the values");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int n=a*a;
+        int k=b*c;
+        double s=3.14*(d*d);
+        System.out.println("area of square"+n);
+        System.out.println("area of rectangle"+k);
+        System.out.println("area of circle"+s);
