@@ -1,0 +1,28 @@
+sara wished to build a new house but she didnt hava a sufficient amount.so she is planning to borrow some money from the bank on simple interest.when she is borrowing some money 
+from the bank,she has to pay the original amount .she wants to find the interst on the amount.she wants to find the interest foe borrowed money within in a certain period.help for her to find the simple 
+interset.
+input format:
+the first line comntaining an integer value denoting the borrowed amount(principal amount)
+the seond line containg an integer value denoting the rate of interest
+output format:
+pra=15000
+2 years
+rate of interset =2.8
+import java.util.*;
+    public class principal{
+        public static void main(String args[]){
+            Scanner sc =new Scanner(System.in);
+            System.out.println("enter principal amount");
+            int p=sc.nextInt();
+            System.out.println("enter number of years");
+            int n=sc.nextInt();
+            System.out.println("enter the value of rate of interest");
+            float r=sc.nextFloat();
+            float result=(p*n*r)/100;15
+            System.out.println(result);
+
+        
+        }
+
+        
+    

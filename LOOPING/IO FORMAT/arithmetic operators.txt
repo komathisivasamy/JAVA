@@ -1,0 +1,19 @@
+write a programm for adding and subtracting 2 numbers using arithemtic operators symbolsimport java.util.Scanner;
+public class add{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the value ");
+        int n=sc.nextInt();
+        System.out.println("enter the value");
+        int k=sc.nextInt();
+        int sum=n+k;
+        int dif=n-k;
+        System.out.println(sum);
+        System.out.println(dif);
+        
+    
+    }
+}
+output:
+sum=16
+dif=-2

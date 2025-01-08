@@ -1,0 +1,21 @@
+package looping;
+import java.util.Scanner;
+
+
+public class loop2 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	
+		int n=sc.nextInt();
+		
+		int a=sc.nextInt();
+		int i;
+		for(i=1;i<n;i++) {
+			int k=i*a;
+			System.out.println(i+"*"+a+"="+k);
+			
+		}
+		
+	}
+
+}

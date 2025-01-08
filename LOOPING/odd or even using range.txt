@@ -1,0 +1,29 @@
+package looping;
+import java.util.Scanner;
+
+
+public class q1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		System.out.print(a +"->");
+		while (a!=1) {
+			if(a%2==0) {
+				a=a/2;
+			
+			}
+			
+			else {
+				a=3*a+1;
+			}
+		
+		    if(a!=1)
+			System.out.print(a +"->");
+		    else
+			System.out.print(a);
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+write a proramm to find the values using assignment operators
+import java .util.*;
+public class assign{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System .out.println("enter the values");
+        int n=sc.nextInt();
+        int k=sc.nextInt();
+        int s=sc.nextInt();
+        int v=sc.nextInt();
+        n+=7;
+        k*=2;
+        s-=1;
+        v/=3;
+
+
+        System.out.println("enter the value of n"+n);
+        System.out.println("enter the value of k"+k);
+        System.out.println("enter value of s"+s);
+        System.out.println("enter value of v" +v);
+        

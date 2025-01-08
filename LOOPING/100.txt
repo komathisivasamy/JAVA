@@ -1,0 +1,15 @@
+package looping;
+import java.util.Scanner;
+
+public class l1 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		System.out.println("enter the value");
+	int i;
+	for(i=1;i<=n;i++) {
+		System.out.println(i);
+	}
+	}
+
+}
